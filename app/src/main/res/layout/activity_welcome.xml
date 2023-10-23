@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".welcome">
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="455dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logowelcome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:fontFamily="@font/poppinsregular"
+        android:gravity="center"
+        android:text="Selamat datang di Rel Express! Kami senang Anda bergabung. Kami hadir untuk memenuhi kebutuhan Anda. Jelajahi dan manfaatkan semua fitur yang kami tawarkan, dan jangan ragu memberikan masukan Anda. Kami berkomitmen untuk meningkatkan pengalaman Anda. Terima kasih telah memilih Rel Express. Selamat menggunakan aplikasi ini!"
+        android:textSize="12sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:width="200dp"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:width="200dp"
+        android:backgroundTint="@color/black"
+        android:text="Register"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

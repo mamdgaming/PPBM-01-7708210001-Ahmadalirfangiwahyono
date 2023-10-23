@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".about">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kembali"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="About"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/img_1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logoapk"/>
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="279dp"
+            android:layout_gravity="center"
+            android:text="Selamat datang di Aplikasi Rel Express! Kami adalah tim yang berkomitmen untuk memberikan pengalaman pemesanan tiket kereta yang nyaman dan mudah. Dapatkan tiket kereta dengan cepat, bandingkan harga, dan akses berbagai jenis kereta serta kelas. Fitur canggih, notifikasi perjalanan, dan dukungan pelanggan siap membantu. Kami adalah mitra operator kereta api terpercaya. Kami cintai perjalanan kereta api, dan kami ingin berbagi pengalaman ini dengan Anda."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
