@@ -26,10 +26,12 @@ class splashscreen : AppCompatActivity() {
         @Suppress("DEPRECATION")
         Handler().postDelayed(
             {
-                startActivity(Intent(this@splashscreen, welcome::class.java))
+                startActivity(Intent(this@splashscreen, slidebutton::class.java))
                 finish()
             },
             1500
         )
+
+
     }
 }

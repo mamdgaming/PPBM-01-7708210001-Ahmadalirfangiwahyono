@@ -25,5 +25,10 @@ class profile : AppCompatActivity() {
             val intent = Intent(this, about::class.java)
             startActivity(intent)
         }
+        val pesan1= findViewById<Button>(R.id.btn_pesan)
+        pesan1.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

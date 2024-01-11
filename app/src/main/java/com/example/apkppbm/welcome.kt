@@ -16,7 +16,7 @@ class welcome : AppCompatActivity() {
             }
         val login1= findViewById<Button>(R.id.login)
         login1.setOnClickListener {
-            val intent = Intent(this, login::class.java)
+            val intent = Intent(this, viewpager::class.java)
             startActivity(intent)
         }
     }

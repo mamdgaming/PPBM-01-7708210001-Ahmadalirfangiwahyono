@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.regpager">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/latar"
+        tools:context=".login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome on board!"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="20sp"
+            android:id="@+id/txt_1"/>
+
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center"
+            android:text="Let's hel you meet up your tasks."
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="292dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:hint="Nama"
+            android:inputType="text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kembali"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="292dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:hint="Email"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etUnsername"
+            android:layout_width="292dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:hint="Unsername"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="292dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="200dp"
+            android:backgroundTint="@color/black"
+            android:text="Register"
+            android:layout_marginTop="600dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
